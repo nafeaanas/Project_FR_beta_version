@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Noto+Sans&family=Tajawal:wght@300;400;700&display=swap%27');
+:root{
+    --bg-color: #FFFFFF;
+    --main-color: #4E4CE9;
+    --main-color2: #272675;
+    --2nd-main-color: #F88603;
+    --text-color: #000000;
+    --text-color2: #F5F5F5;
+    --big-font: 5rem;
+    --h2-font: 1.9rem;
+    --p-font: 1rem;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal', sans-serif;
+    overflow-x: hidden;
+    font-weight: 600 !important;
+}
+.btn{
+    width: 40%;
+    height: 45px;
+    color: var(--bg-color);
+    background-color: var(--main-color);
+}
+input{
+    text-align:right;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--text-color2);
+}
+textarea{
+    text-align:right;
+    min-height: 140px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--text-color2);
+}
+nav{
+    height: 10vh;
+    background-color: var(--bg-color) !important;
+}
+#home nav .navbar-nav{
+    background-color: var(--bg-color);
+}
+#logo{
+    color: var(--text-color) !important;
+    font-family: 'Lalezar', cursive;
+    font-size: 35px;
+}
+#logo img{
+    width: 10%;
+}
+#statistique .card{
+    height: 100px;
+    border: none;
+}
+#statistique .icon{
+    color: var(--main-color);
+    font-size: 35px;
+}
+
+
+/* about */
+#about{
+    width: 100%;
+    height: 100vh;
+}
+
+/* Avantages */
+#avantage #cards_avantage img{
+    width: 90%;
+    height: 250px;
+}
+
+/* Contact */
+
+
+/* Footer */
+#footer1{
+    width: 100%;
+    height: 240px;
+    background-color: var(--main-color2);
+    color: var(--bg-color);
+}
+#footer1 a{
+    width: 20%;
+    height: 50px;
+    background-color: var(--2nd-main-color);
+    border-radius: 8px;
+}
+#footer2{
+    width: 100%;
+    min-height: 50px;
+}
+#footer2 i{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-color);
+    background-color: #EDEDFD;
+    padding: 5px;
+    border-radius: 25%;
+}
